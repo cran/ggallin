@@ -2,11 +2,10 @@
 
 # ggallin
 
-[![Build Status](https://travis-ci.org/shabbychef/ggallin.png)](https://travis-ci.org/shabbychef/ggallin)
-[![codecov.io](http://codecov.io/github/shabbychef/ggallin/coverage.svg?branch=master)](http://codecov.io/github/shabbychef/ggallin?branch=master)
-[![CRAN](http://www.r-pkg.org/badges/version/ggallin)](https://cran.r-project.org/package=ggallin)
-[![Downloads](http://cranlogs.r-pkg.org/badges/ggallin?color=green)](http://www.r-pkg.org/pkg/ggallin)
-[![Total](http://cranlogs.r-pkg.org/badges/grand-total/ggallin?color=green)](http://www.r-pkg.org/pkg/ggallin)
+[![Build Status](https://github.com/shabbychef/ggallin/workflows/R-CMD-check/badge.svg)](https://github.com/shabbychef/ggallin/actions)
+[![CRAN](https://www.r-pkg.org/badges/version/ggallin)](https://cran.r-project.org/package=ggallin)
+[![Downloads](http://cranlogs.r-pkg.org/badges/ggallin?color=green)](https://www.r-pkg.org:443/pkg/ggallin)
+[![Total](http://cranlogs.r-pkg.org/badges/grand-total/ggallin?color=green)](https://www.r-pkg.org:443/pkg/ggallin)
 
 > *If you think I'm into this for the money you're dead wrong because I'm not doing this for the money.  I'm doing it because it lives inside of me.* -- GG Allin
 
@@ -71,7 +70,7 @@ ph <- mydat %>%
 print(ph)
 ```
 
-<img src="man/figures/geom_cloud-1.png" title="plot of chunk geom_cloud" alt="plot of chunk geom_cloud" width="600px" height="500px" />
+<img src="man/figures/geomcloud-1.png" title="plot of chunk geomcloud" alt="plot of chunk geomcloud" width="600px" height="500px" />
 
 ## log-like transforms
 
@@ -79,7 +78,7 @@ The square root transform is a good compromise between raw and logarithmic
 scales, showing detail across different scales without over-emphasizing very
 small variation. However, it does not work for negative numbers. Thus
 a signed square root transform is useful. Along similar lines, the 
-[pseudo-log transform](http://www.win-vector.com/blog/2012/03/modeling-trick-the-signed-pseudo-logarithm/)
+[pseudo-log transform](https://win-vector.com/2012/03/01/modeling-trick-the-signed-pseudo-logarithm/)
 accepts negative numbers while providing a good view across magnitudes.
 Some illustrations:
 
